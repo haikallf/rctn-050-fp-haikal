@@ -1,0 +1,28 @@
+#search-bar {
+  height: 34px;
+  border-radius: 10px 0 0 10px;
+  border: 1px;
+  padding-left: 10px;
+}
+
+#search-bar:focus {
+  outline: none;
+}
+
+#search-button:focus {
+  outline: none;
+}
+
+#search-button {
+  margin: 0;
+  padding: 0;
+  height: 36px;
+  width: 34px;
+  border-radius: 0 10px 10px 0;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #282f52;
+  cursor: pointer;
+}
