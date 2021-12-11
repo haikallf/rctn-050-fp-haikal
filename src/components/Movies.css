@@ -13,6 +13,26 @@
   transition: all 0.3s ease;
 }
 
+@media (min-width: 300px) {
+  .movies {
+    width: 150px;
+  }
+}
+
+@media (min-width: 600px) {
+  .movies {
+    width: 250px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .movies {
+    width: 300px;
+    height: 530px;
+  }
+}
+
 .movies:hover {
   transform: scale(1.01);
   transition: all 0.3s ease;
@@ -20,11 +40,11 @@
 
 .movies img {
   height: 500px;
-  width: 350px;
+  width: inherit;
 }
 
 .movies-title {
-  width: 300px;
+  width: inherit;
   height: 80px;
   display: flex;
   align-items: center;
